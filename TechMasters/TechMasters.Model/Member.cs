@@ -9,6 +9,8 @@ namespace TechMasters.Model
     public class Member
     {
         public int Id { get; set; }
-        public IList<int> Speeches { get; set; }
+        public IList<Speech> Speeches { get; set; }
+        public DateTime MembershipStart { get; set; }
+        public DateTime MembershipEnd { get; set; }
     }
 }

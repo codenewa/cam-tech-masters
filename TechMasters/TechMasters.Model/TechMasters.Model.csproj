@@ -40,9 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />
+    <Compile Include="Club.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Meeting.cs" />
     <Compile Include="Member.cs" />
+    <Compile Include="AOfficer.cs" />
+    <Compile Include="OfficerRole.cs" />
     <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Speech.cs" />
