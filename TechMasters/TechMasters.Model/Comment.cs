@@ -9,6 +9,6 @@ namespace TechMasters.Model
     {
         public int Id { get; set; }
         public int MemberId { get; set; }
-        public string Commenter { get; set; }
+        public string CommentText { get; set; }
     }
 }
